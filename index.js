@@ -20,7 +20,7 @@ else {
     processFile(terminalArguments[0], terminalArguments[1] || "ChromeImport");
 }
 function processFile(fileName, group) {
-    var rawData = fs.readFileSync("./" + fileName, "utf8");
+    var rawData = fs.readFileSync("" + fileName, "utf8");
     // remove first line
     var exportCSV = rawData.substring(rawData.indexOf("\n") + 1);
     // add uuid for each list, add groupd

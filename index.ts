@@ -24,7 +24,7 @@ if (terminalArguments.length === 0) {
 }
 
 function processFile(fileName, group) {
-  let rawData: String = fs.readFileSync(`./${fileName}`, "utf8");
+  let rawData: String = fs.readFileSync(`${fileName}`, "utf8");
 
   // remove first line
   let exportCSV = rawData.substring(rawData.indexOf("\n") + 1);
