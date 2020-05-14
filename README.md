@@ -12,9 +12,9 @@ Install dependencies
 
 Application accept 2 parameters
 
-#### First is name of the file (mandatory)
+- First is name of the file (mandatory)
 
-#### Second is group where passwords will belong (optional)
+- Second is group where passwords will belong (optional)
 
 Running
 
@@ -23,3 +23,9 @@ Running
 or
 
 `node index.js Passwords.csv groupName` //allows to name group of passwords with parameter
+
+## Downloading your passwords from your google chrome
+
+chrome://settings/passwords [link](chrome://settings/passwords)
+
+Next to **Saved Passwords** click tripple dot option and select _Export passwords..._
